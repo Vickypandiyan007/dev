@@ -1,5 +1,5 @@
 # Base Image
-FROM node:14.21-alpine
+FROM node:18.16.1-alpine3.18
 
 # Working Directory inside the Container
 WORKDIR /reactapp
